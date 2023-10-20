@@ -1,0 +1,52 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.colorSpan {
+  color: indigo;
+}
+
+.inputUrl {
+  padding: 8px 20px;
+}
+
+.downloadButton {
+  background-color: green;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: indigo;
+  color: white;
+  border: none;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.inputSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 5vh;
+  /* background-color: azure; */
+}
+input {
+  display: inline-block;
+  border-radius: 5px;
+
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  text-align: center;
+  /* text-indent: -30px; */
+}
